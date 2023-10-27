@@ -300,6 +300,7 @@ nav li {
 
 #services{
     display: flex;
+    justify-content: center;
     background-image:url("https://livedemo00.template-help.com/wt_prod-25861/images/bg-image-3.jpg");
     background-size: cover;
     background-position: center;
@@ -391,4 +392,63 @@ footer section{
 
 .footer-services p{
     margin-bottom: 5px;
+}
+.section-about{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+}
+
+.div-about{
+    width: 70%;
+    margin: 15px;
+    justify-content: center;
+    
+}
+
+.div-about img{
+    width: 90%;
+    margin: 15px;
+}
+
+.div-about h2{
+    width: 100%;
+}
+
+#about-us{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#about-img p{
+    display: flex;
+}
+#botones{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+#botones article{
+    width: 45%;
+    flex-direction: column;
+    border: 1px solid #efefef;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0;
+    
+}
+
+#botones article a{
+    display: flex;
+    flex-direction: column;
+}
+
+#botones article p{
+    display: flex;
+    flex-direction: column;
 }
