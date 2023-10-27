@@ -300,7 +300,6 @@ nav li {
 
 #services{
     display: flex;
-    justify-content: center;
     background-image:url("https://livedemo00.template-help.com/wt_prod-25861/images/bg-image-3.jpg");
     background-size: cover;
     background-position: center;
@@ -315,6 +314,10 @@ nav li {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.breadcrumb{
+    display: flex;
 }
 
 
@@ -393,6 +396,7 @@ footer section{
 .footer-services p{
     margin-bottom: 5px;
 }
+
 .section-about{
     display: flex;
     justify-content: center;
