@@ -179,6 +179,10 @@ body{
     color: #79787f;
 }
 
+.p-footer{
+    margin-top: 10px;
+}
+
 .texto-naranja{
     color:#ff6a21;
 }
@@ -464,11 +468,16 @@ footer section{
     flex-direction: column;
 }
 
-.symposiums{
+.symposiums, .power{
     display: flex;
     justify-content: center;
     width: 100%;
    padding: 65px 0 55px;
+}
+
+.power{
+    flex-direction: column;
+    align-items: center;
 }
 
 .symposiums-content{
@@ -478,6 +487,15 @@ footer section{
     justify-content: center;
     text-align: left;
 
+}
+
+.power-content{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    text-align: left;
+    margin-left: 30px;
 }
 
 .symposiums-content h2, .symposiums-content img{
@@ -502,4 +520,75 @@ footer section{
 
 .back-gris{
     background-color: #efefef;
+}
+
+.parrafo-power{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+#fecha{
+    display: flex;
+    flex-direction: column;
+    background-color:#efefef;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 20px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+#fecha:hover{
+    background-color: #f75506;
+    color: #FFFFFF;
+    
+}
+
+#titulo-fecha{
+display: flex;
+width: 50%;
+}
+
+#titulo-power{
+    display: block;
+    margin-left: 15px;
+}
+
+#fecha h3{
+    font-size: 1.8em;
+}
+
+.parrafo-power a{
+    margin: 15px;
+}
+
+#imagen-grande-power{
+    margin-top: 15px;
+}
+
+.boton-post{
+    display: flex;
+    justify-content: space-between;
+}
+
+#form-power{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+#form-power input{
+    display: flex;
+    width: 32%;
+    
+}
+
+#form-power textarea{
+    width: 100%;
+    height: 180px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+
 }
