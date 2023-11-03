@@ -160,15 +160,22 @@ body{
     font-size: 0.75em;
 }
 
+.font-0875{
+    font-size: 0.875em;
+} 
+
+.font-09{
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
 .p-gris-0875{
     font-size: 0.875em;
-    padding: 15px 5px;
     color: #79787f;
 }
 
 .p-gris-075{
     font-size: 0.75em;
-    padding: 15px 5px;
     color: #79787f;
 }
 
@@ -298,7 +305,7 @@ nav li {
     text-align: center;
 }
 
-#services{
+#banner-taza{
     display: flex;
     background-image:url("https://livedemo00.template-help.com/wt_prod-25861/images/bg-image-3.jpg");
     background-size: cover;
@@ -455,4 +462,44 @@ footer section{
 #botones article p{
     display: flex;
     flex-direction: column;
+}
+
+.symposiums{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   padding: 65px 0 55px;
+}
+
+.symposiums-content{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    text-align: left;
+
+}
+
+.symposiums-content h2, .symposiums-content img{
+    margin-bottom: 25px;
+}
+
+.symposiums-content p, .symposiums-content td{
+    margin: 15px 0;
+}
+
+.symposiums-content h5{
+    font-weight: 400;
+}
+
+.symposiums-content td{
+    padding: 12px;
+}
+
+.symposiums-content table{
+    margin: 15px 0;
+}
+
+.back-gris{
+    background-color: #efefef;
 }
