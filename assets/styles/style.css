@@ -141,6 +141,10 @@ body{
     color:#ffffff;
 }
 
+.bold{
+    font-weight: 900;
+}
+
 .font1875{
     font-size: 1.875em;
     font-weight: bolder;
