@@ -17,11 +17,11 @@ Este proyecto consiste en la recreación de varias páginas web para el sitio "S
 - **Enlaces Externos**: Se utilizaron enlaces externos para recursos como fuentes, íconos, etc.
 
 ## Creadores
-- **Estudiante**: [Micaela Svatzky]
-- **Estudiante**: [Tiago Collado]
-- **Estudiante**: [Ignacio Luna]
-- **Estudiante**: [Ramona Ikonicoff]
-- **Profesor de la Materia**: [Marta Viviana Isabel Polo Arena]
+- **Estudiante**: Micaela Svatzky
+- **Estudiante**: Tiago Collado
+- **Estudiante**: Ignacio Luna
+- **Estudiante**: Ramona Ikonicoff
+- **Profesor de la Materia**: Marta Viviana Isabel Polo Arena
 
 ## Instrucciones de Ejecución Local
 1. Clona este repositorio: `git clone [URL del repositorio]`
