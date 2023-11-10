@@ -21,7 +21,7 @@ Este proyecto consiste en la recreación de varias páginas web para el sitio "S
 - **Estudiante**: Tiago Collado
 - **Estudiante**: Ignacio Luna
 - **Estudiante**: Ramona Ikonicoff
-- **Profesor de la Materia**: Marta Viviana Isabel Polo Arena
+- **Profesora de la Materia**: Marta Viviana Isabel Polo Arena
 
 ## Instrucciones de Ejecución Local
 1. Clona este repositorio: `git clone [URL del repositorio]`
