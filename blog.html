@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </head>
 
 <body>
@@ -57,21 +58,28 @@
 
 
 
-    <main>
+    <main id="Blog">
 
-        <section id="foto-blog">
-            <img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820"
-                alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today.">
-            <h1>BLOG</h1>
-            <a href="" class="texto-naranja">Home</a>
-            <h5>Blog</h5>
+        <section  id="banner-taza">
+
+            <div id="title">
+
+                <h2>BLOG</h2>
+                <ul class = "breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li> <i class="fa-solid fa-chevron-right"></i> </li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+
         </section>
 
+    
         <section>
-            <h2 class="font1875">GRID BLOG</h2>
+            <h2 class=" blog font1875">GRID BLOG</h2>
 
             <article>
-                <img src="images/blog-post-1-407x263.jpg" alt width="407" height="263">
+                <img src="https://livedemo00.template-help.com/wt_prod-25861/images/blog-post-1-407x263.jpg">
                 <p>August 9, 2019</p>
                 <h6 a href="">The Power of Self-Belief</h6>
                 <p class="p-gris-075">Regius nixs ducunt ad bromium. Ignigena, nutrix, et terror. Bi-color, emeritis fugas aegre aperto de
@@ -80,7 +88,7 @@
             </article>
 
             <article>
-                <img src="images/blog-post-2-407x263.jpg" alt width="407" height="263">
+                <img src="https://livedemo00.template-help.com/wt_prod-25861/images/blog-post-2-407x263.jpg">
                 <p>August 9, 2019</p>
                 <h6 a href="">Two Extra Hours a Day</h6>
                 <p class="p-gris-075">Nunquam demitto brodium. Ecce, devirginato! Zirbuss sunt mortems de castus absolutio. Teres calceus
@@ -90,7 +98,7 @@
 
 
             <article>
-                <img src="images/blog-post-3-407x263.jpg" alt width="407" height="263">
+                <img src="https://livedemo00.template-help.com/wt_prod-25861/images/blog-post-3-407x263.jpg">
                 <p>August 9, 2019</p>
                 <h6 a href="">Accelerate to Activate</h6>
                 <p class="p-gris-075">Vae. Emeritis, varius diatrias semper convertam de brevis, rusticus bulla. Rumor, abnoba, et abactus.
@@ -99,7 +107,7 @@
             </article>
 
             <article>
-                <img src="images/blog-post-4-407x263.jpg" alt width="407" height="263">
+                <img src="https://livedemo00.template-help.com/wt_prod-25861/images/blog-post-4-407x263.jpg">
                 <p>August 9, 2019</p>
                 <h6 a href="">5 Steps to Living More Passionately</h6>
                 <p class="p-gris-075">Barbatus zirbus solite examinares cacula est. Cum gallus accelerare, omnes parmaes visum dexter,
@@ -109,7 +117,7 @@
             </article>
 
             <article>
-                <img src="images/blog-post-5-407x263.jpg" alt width="407" height="263">
+                <img src="https://livedemo00.template-help.com/wt_prod-25861/images/blog-post-5-407x263.jpg">
                 <p>August 9, 2019</p>
                 <h6 a href="">Managing Business Efficiently</h6>
                 <p class="p-gris-075">Nuptias potus in burdigala! Est alter elevatus, cesaris. Cum zelus congregabo, omnes magisteres
@@ -120,7 +128,7 @@
 
 
             <article>
-                <img src="images/blog-post-6-407x263.jpg" alt width="407" height="263">
+                <img src="https://livedemo00.template-help.com/wt_prod-25861/images/blog-post-6-407x263.jpg">
                 <p>August 9, 2019</p>
                 <h6 a href="">Measure Your Self-Development</h6>
                 <p class="p-gris-075">Galluss assimilant, tanquam velox vortex. Sunt indictioes magicae audax, peritus aususes. Cum terror
@@ -132,72 +140,102 @@
     </main>
 
     <footer>
-        <section>
-            <a src=""><img src="https://livedemo00.template-help.com/wt_prod-25861/images/logo-inverse-325x62.png"></a>
-
-            <p>We specialize in organizing conferences, lectures, seminars and other informative events inviting
-                the best experts as speakers!
-
-                You can find answers to questions in any sphere. We cooperate with lecturers from all spheres of life.
-            </p>
-        </section>
-
-        <section>
-            <h4>SERVICES</h4>
-            <a src="">
-                <p>Conferences</p>
-            </a>
-            <a src="">
-                <p>Seminars</p>
-            </a>
-            <a src="">
-                <p>Summits</p>
-            </a>
-            <a src="">
-                <p>Forums</p>
-            </a>
-            <a src="">
-                <p>Symposiums</p>
-            </a>
-            <a src="">
-                <p>Lectures</p>
-            </a>
-        </section>
-
-        <section>
-            <h4>RECENT POSTS</h4>
+        <div id="footer">
             <section>
-                <a><img src=""></a>
-                <p>April 27, 2019<span>by<a src=""> J. Peters</a></span></p>
-                <a src="">Understanding Your Purpose</a>
+                <a src=""><img src="https://livedemo00.template-help.com/wt_prod-25861/images/logo-inverse-325x62.png"
+                        class="speakerF"></a>
+
+                <p class="p-gris-075 p-footer">We specialize in organizing </br>
+                    conferences, lectures, seminars and </br>
+                    other informative events inviting the </br>
+                    best experts as speakers!</br></br>
+
+                    You can find answers to questions in</br>
+                    any sphere. We cooperate with</br>
+                    lecturers from all spheres of life.</br>
+                </p>
             </section>
 
-            <section>
-                <a><img src=""></a>
-                <p>April 27, 2019<span>by<a src=""> J. Peters</a></span></p>
-                <a src="">Setting Your Business Goal</a>
+            <section class="footer-services p-gris-075">
+                <h4 class="texto-blanco">SERVICES</h4>
+
+                <a src="">
+                    <p>Conferences</p>
+                </a>
+                <a src="">
+                    <p>Seminars</p>
+                </a>
+                <a src="">
+                    <p>Summits</p>
+                </a>
+                <a src="">
+                    <p>Forums</p>
+                </a>
+                <a src="">
+                    <p>Symposiums</p>
+                </a>
+                <a src="">
+                    <p>Lectures</p>
+                </a>
             </section>
 
-            <section>
-                <a><img src=""></a>
-                <p>April 27, 2019<span>by<a src=""> J. Peters</a></span></p>
-                <a src="">Self-improvement Strategy</a>
+            <section id="rec-post">
+                <h4 class="texto-blanco">RECENT POSTS</h4>
+                <div>
+                    <article class="section-galeria">
+                        <a class="imagen01"><img
+                                src="https://livedemo00.template-help.com/wt_prod-25861/images/post-mini-1-60x60.jpg"></a>
+                        <div>
+                            <p class="texto-blanco font-075">April 27, 2019 <span>by<a src=""> J. Peters</a></span></p>
+                            <a src="" class="p-gris-075 texto-gris-footer">Understanding Your Purpose</a>
+                        </div>
+                    </article>
+
+                    <article class="section-galeria">
+                        <a class="imagen01"><img
+                                src="https://livedemo00.template-help.com/wt_prod-25861/images/post-mini-2-60x60.jpg"></a>
+                        <div>
+                            <p class="texto-blanco font-075">April 27, 2019 <span>by<a src=""> J. Peters</a></span></p>
+                            <a src="" class="p-gris-075 texto-gris-footer">Setting Your Business Goal</a>
+                        </div>
+                    </article>
+
+                    <article class="section-galeria">
+                        <a class="imagen01"><img
+                                src="https://livedemo00.template-help.com/wt_prod-25861/images/post-mini-3-60x60.jpg"></a>
+                        <div>
+                            <p class="texto-blanco font-075">April 27, 2019 <span>by<a src=""> J. Peters</a></span></p>
+                            <a src="" class="p-gris-075 texto-gris-footer">Self-improvement Strategy</a>
+                        </div>
+                    </article>
+                </div>
             </section>
 
-        </section>
+            <section id="galeria">
+                <h4 class="texto-blanco">GALLERY</h4>
+                <div id="galeria-fotos">
+                    <a><img
+                            src="https://livedemo00.template-help.com/wt_prod-25861/images/footer-gallery-original-1.jpg"></a>
+                    <a><img
+                            src="https://livedemo00.template-help.com/wt_prod-25861/images/footer-gallery-original-2.jpg"></a>
+                    <a><img
+                            src="https://livedemo00.template-help.com/wt_prod-25861/images/footer-gallery-original-3.jpg"></a>
+                    <a><img
+                            src="https://livedemo00.template-help.com/wt_prod-25861/images/footer-gallery-original-4.jpg"></a>
+                    <a><img
+                            src="https://livedemo00.template-help.com/wt_prod-25861/images/footer-gallery-original-5.jpg"></a>
+                    <a><img
+                            src="https://livedemo00.template-help.com/wt_prod-25861/images/footer-gallery-original-6.jpg"></a>
+                    <a><img
+                            src="https://livedemo00.template-help.com/wt_prod-25861/images/footer-gallery-original-7.jpg"></a>
+                    <a><img
+                            src="https://livedemo00.template-help.com/wt_prod-25861/images/footer-gallery-original-8.jpg"></a>
+                    <a><img
+                            src="https://livedemo00.template-help.com/wt_prod-25861/images/footer-gallery-original-9.jpg"></a>
+                </div>
+            </section>
+        </div>
 
-        <section>
-            <h4>GALLERY</h4>
-            <a><img src=""></a>
-            <a><img src=""></a>
-            <a><img src=""></a>
-            <a><img src=""></a>
-            <a><img src=""></a>
-            <a><img src=""></a>
-            <a><img src=""></a>
-            <a><img src=""></a>
-            <a><img src=""></a>
-        </section>
     </footer>
 </body>
 
