@@ -585,10 +585,10 @@ footer section {
     justify-content: center;
 }
 
-#speaker-titulo, #speakers h2{
+#speaker-titulo, #speakers-titulo p{
     display: flex;
     flex-direction: column;
-    margin: 1em 0;
+    margin: 2em 0;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -597,7 +597,6 @@ footer section {
 #speaker-titulo h2, #speaker-titulo p{
     margin-bottom: 24px;
 }
-
 
 
 .symposiums,
@@ -855,27 +854,11 @@ footer section {
     margin: 10px 0;
 }
 
-.blog h2 {
-    font-size: 1.875em;
-    line-height: 1.3;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-top: 0;
-    margin-bottom: 0;
-    color: #1e1d24;
-}
+
 
 #foto-blog {
     background-color: #ffffff;
     padding: 6em 0 5.313em;
-}
-
-#blog {
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-size: 0.875em;
-    line-height: 1.64286;
-    font-weight: 300;
-    color: #79787f;
 }
 
 
@@ -883,17 +866,6 @@ footer section {
     display: inline-block;
     max-width: 100%;
     height: auto;
-}
-
-/*font-weight: 600;
-    color: #94929b;*/
-    
-
-.blog h6 {
-    font-weight: 700;
-    font-size: 1.125em;
-    line-height: 1.5;
-    font-family: inherit;
 }
 
 #precios{
@@ -1019,3 +991,4 @@ footer section {
 #reloj-blanco div{
     margin: 0.8em;
 }
+
