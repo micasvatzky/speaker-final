@@ -585,10 +585,9 @@ footer section {
     justify-content: center;
 }
 
-#speaker-titulo{
+#speaker-titulo, #speakers h2{
     display: flex;
     flex-direction: column;
-    width: 70%;
     margin: 1em 0;
     justify-content: center;
     align-items: center;
@@ -988,8 +987,8 @@ footer section {
     justify-content: center;
     z-index: 0;
     position: absolute;
-    padding-right: 15em;
-    margin-top: 3em;
+    padding-right: 20em;
+    margin-top: 5em;
     height: 50vh;
 }
 
@@ -997,7 +996,7 @@ footer section {
 #div-reloj h2{
     font-size: 2.5em;
     font-weight: 600;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.3em;
 }
 
 #div-reloj p{
@@ -1006,5 +1005,17 @@ footer section {
 }
 
 #div-reloj h3{
-    font-size: 3.5em;
+    font-size: 5em;
+    font-weight: 600;
+}
+
+
+#reloj-blanco{
+    display: flex;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#reloj-blanco div{
+    margin: 0.8em;
 }
