@@ -129,6 +129,7 @@ body {
     color: #ffffff;
     background-color: #000000;
     border: #000000 1px solid;
+    cursor: pointer;
 
 }
 
@@ -136,6 +137,7 @@ body {
     color: #f75506;
     background-color: #ffffff;
     border: #ffffff 1px solid;
+    cursor: pointer;
 }
 
 .texto-blanco {
@@ -591,7 +593,7 @@ footer section {
 }
 
 #speaker-titulo h2, #speaker-titulo p{
-    margin-bottom: 10px;
+    margin-bottom: 24px;
 }
 
 
@@ -670,7 +672,7 @@ footer section {
     align-items: center;
 }
 
-#fecha:hover {
+#fecha:hover  {
     background-color: #f75506;
 
 }
@@ -732,7 +734,7 @@ footer section {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    padding: 2em;
 }
 
 .div-what {
@@ -875,4 +877,73 @@ footer section {
     font-size: 1.125em;
     line-height: 1.5;
     font-family: inherit;
+}
+
+#precios{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#precios article{
+    display: flex;
+    width:20%;
+    flex-direction: column;
+    padding-top: 0.5em;
+    padding-bottom: 2em;
+    margin: 0 1em;
+    border: 2px solid #efefef;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#precios p{
+    font-size: 0.875em;
+    font-weight: 600;
+    padding: 0.5em;
+    text-align: center;
+}
+
+#precios span{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#precios article .cero{
+    font-size: 16px;
+    padding-bottom: 3em;
+}
+
+#precios li{
+    padding: 1em;
+    border-top: 0.5px solid #efefef;
+
+}
+
+#precios ul{
+    margin-bottom: 2em;
+}
+
+.ultimo{
+    border-bottom: 0.5px solid #efefef;
+}
+
+#precios a{
+   font-size: 0.65em;
+   padding: 1em 3em; ;
+}
+
+#reloj img{
+    position: relative;
+}
+
+#foto-hombre{
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+    z-index: 2;
+
 }
