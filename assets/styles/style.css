@@ -585,7 +585,7 @@ footer section {
     justify-content: center;
 }
 
-#speaker-titulo, #speakers-titulo p{
+#speaker-titulo, #speakers-titulo {
     display: flex;
     flex-direction: column;
     margin: 2em 0;
@@ -594,7 +594,8 @@ footer section {
     text-align: center;
 }
 
-#speaker-titulo h2, #speaker-titulo p{
+#speaker-titulo h2, #speaker-titulo p, 
+#speakers-titulo h2, #speakers-titulo p{
     margin-bottom: 24px;
 }
 
@@ -992,3 +993,13 @@ footer section {
     margin: 0.8em;
 }
 
+#speakers{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    align-items: center;
+}
+
+#each-speaker{
+    display: flex;
+}
