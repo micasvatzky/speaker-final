@@ -954,14 +954,57 @@ footer section {
    padding: 1em 3em; ;
 }
 
-#reloj img{
+#reloj{
+    display: flex;
+    width: 100%;
+    align-items: right;
+    text-align: center;
+    justify-content: center;
+}
+
+#reloj-foto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#fondo-reloj{
     position: relative;
+    z-index: -1;
 }
 
 #foto-hombre{
     display: flex;
+    height: 83vh;
+    right: 10em;
     position: absolute;
-    align-items: flex-end;
-    z-index: 2;
+    z-index: 0;
+}
 
+#div-reloj{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+    position: absolute;
+    padding-right: 15em;
+    margin-top: 3em;
+    height: 50vh;
+}
+
+
+#div-reloj h2{
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+#div-reloj p{
+    font-size: 0.875em;
+    line-height: 1.5;
+}
+
+#div-reloj h3{
+    font-size: 3.5em;
 }
