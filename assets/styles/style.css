@@ -355,6 +355,9 @@ nav li {
     color: #fff;
 }
 
+.fa-solid {
+    color:#79787f;
+}
 
 #title h2 {
     font-size: 3.75em;
@@ -813,13 +816,18 @@ footer section {
 }
 
 #each-testimony article {
-    background-color: #ffffff;
     border-radius: 8px;
     padding: 20px;
-    text-align: center;
+    text-align: left;
     max-width: 300px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     margin: 0 20px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffffff;
 }
 
 .quote-icon {
@@ -827,10 +835,20 @@ footer section {
     margin-bottom: 10px;
 }
 
+.author-info {
+    margin-top: 20px;
+    display: flex;
+}
+
 .author-img {
     max-width: 78px;
     border-radius: 50%;
     margin-top: 20px;
+}
+
+.author-details {
+    display: flex;
+    flex-direction: column;
 }
 
 #each-testimony h6,
