@@ -272,11 +272,14 @@ nav li {
     display: none;
     position: absolute;
     background-color: #1E1D24;
+    top: 100%; /* Pone el menú justo debajo del enlace */
+    left: 0; /* Alinea con el borde izquierdo del enlace */
+    width: 122px;
 }
 
 .dropdown-content li {
     display: block;
-    text-align: center;
+    text-align: left;
     margin: 3em;
 }
 
@@ -572,6 +575,17 @@ footer section {
     margin: 0.5em 0;
 }
 
+#botones article:hover {
+    background-color: #f75506;
+}
+
+#botones article:hover .about-icono {
+    color: #ffffff;
+}
+
+#botones article:hover a p {
+    color: #ffffff;
+}
 
 #numeros {
     height: 45vh;
@@ -1089,6 +1103,20 @@ footer section {
     margin: 10px;
     justify-content: space-around;
 }
+
+#each-speaker article:hover {
+    background-color: #f75506;
+}
+
+#each-speaker article:hover .speaker-texto a,
+#each-speaker article:hover .speaker-texto p {
+    color: #ffffff;
+}
+
+#each-speaker article:hover .speaker-icono a {
+    color: #ffffff;
+}
+
 
 #gallery{
     background-color: #121212;
