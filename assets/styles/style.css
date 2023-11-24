@@ -107,7 +107,7 @@ select {
 }
 
 body {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .boton-primario-blanco,
@@ -265,6 +265,36 @@ nav li {
 }
 
 .hover-naranja:hover {
+    color: #f75506;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1E1D24;
+}
+
+.dropdown-content li {
+    display: block;
+    text-align: center;
+    margin: 3em;
+}
+
+.dropdown-content a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Mostrar la lista desplegable cuando se pasa el cursor sobre el elemento padre */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content li:hover a{
     color: #f75506;
 }
 
@@ -807,7 +837,7 @@ footer section {
     background-size: cover;
     background-position: center;
     color: #ffffff;
-    padding: 50px 0;
+    padding: 110px 0;
 }
 
 
@@ -820,22 +850,24 @@ footer section {
 
 #each-testimony {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 #each-testimony article {
     border-radius: 8px;
     padding: 20px;
     text-align: left;
-    max-width: 300px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    margin: 0 20px;
+    max-width: 384px;
+    margin: 0 16px;
 }
 
 .quote-container {
     display: flex;
     flex-direction: column;
     background-color: #ffffffff;
+    padding: 1em;
+    border-radius: 0.5em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .quote-icon {
@@ -844,6 +876,7 @@ footer section {
 }
 
 .author-info {
+    align-items: center;
     margin-top: 20px;
     display: flex;
 }
@@ -857,13 +890,8 @@ footer section {
 .author-details {
     display: flex;
     flex-direction: column;
+    margin-left: 2em;
 }
-
-#each-testimony h6,
-#each-testimony p {
-    margin: 10px 0;
-}
-
 
 
 #foto-blog {
