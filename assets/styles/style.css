@@ -1276,9 +1276,12 @@ footer section {
 #grid-blog {
     display: flex;
     flex-direction: column;
-    align-items: center; 
     padding: 3em;
   }
+
+#grid-blog h2{
+    padding-left: 8em;
+}
   
   #grilla-blog {
     display: grid;
