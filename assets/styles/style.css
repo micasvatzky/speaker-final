@@ -1144,3 +1144,61 @@ footer section {
 .news-article div{
     padding-bottom: 1em;
 }
+
+#iconos-marca{
+    background-color: #f7f7f7;
+    padding:2.5em;
+}
+
+#each-icon ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#each-icon a{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+#contact-us{
+    display: flex;
+    justify-content: center;
+    padding: 3em;    
+}
+
+#contact-us div, #contact-us form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#contact-us form{
+    margin: 1em 0;
+}
+
+#contact-us div, #contact-us img{
+    width: 30%;
+}
+
+#contact-us form input, #contact-us form textarea{
+    display: flex;
+    width: 90%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #989899;
+}
+
+#contact-us form textarea{
+    height: 10em;
+}
+
+#contact-us p{
+    margin-top: 1em;
+}
+
+#contact-us a{
+    width: 20%;
+    text-align: center;
+}
