@@ -696,6 +696,16 @@ footer section {
     background-color: #efefef;
 }
 
+.lista-single{
+    display: flex;
+    flex-direction: column; 
+    align-items: left;
+}
+
+.lista-single li iconify-icon{
+    margin-right: 5px;
+}
+
 .parrafo-power {
     width: 100%;
     margin-top: 15px;
@@ -1100,4 +1110,24 @@ footer section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 0;
+}
+
+#news-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3em;
+}
+
+#each-new{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+}
+
+#each-new article{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 1em;
 }

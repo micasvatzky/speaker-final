@@ -29,7 +29,7 @@
                 <ul class="hover-naranja">
                     <li><a class="texto-naranja" href="index.html">Home</a></li>
 
-                    <li><a class="texto-blanco hover-naranja" href="" target="_blank">About</a></li>
+                    <li><a class="texto-blanco hover-naranja" href="#about-us-section">About</a></li>
 
                     <li class="dropdown">
                         <a class="texto-blanco hover-naranja" href="services.html" target="_blank">Services</a>
@@ -38,14 +38,14 @@
                         </ul>
                     </li>
 
-                    <li><a class="texto-blanco hover-naranja" href="" target="_blank">Gallery</a></li>
+                    <li><a class="texto-blanco hover-naranja" href="#gallery">Gallery</a></li>
 
                     <li class="dropdown">
                         <a class="texto-blanco hover-naranja" href="blog.html" target="_blank">Blog</a>
                         <ul class="dropdown-content">
                             <li><a href="blog_post.html">Blog Post</a></li>
                         </ul>
-                    <li><a class="texto-blanco hover-naranja" href="" target="_blank">Contacts</a></li>
+                    <li><a class="texto-blanco hover-naranja" href="#contact-us">Contacts</a></li>
 
                     <li><a class="texto-blanco hover-naranja" href="" target="_blank">Elements</a></li>
                 </ul>
@@ -71,7 +71,7 @@
         </section>
 
         <!--About us-->
-        <section class="section-about">
+        <section class="section-about" id="about-us-section">
             <div class="div-about">
 
                 <h2 class="font1875">About us</h2>
@@ -415,7 +415,7 @@
 
 
         <section>
-            <div>
+            <div id="news-div">
                 <div id="news-titulo">
                     <h2 class="font1875">RECENT NEWS</h2>
                     <p class="p-gris-0875">Read the latest news and useful tips posted regularly by our speakers and
@@ -460,74 +460,92 @@
                             <span>0 Comments</span>
                         </p>
                     </article>
+                </section>
+                <a src="" class="boton-primario-negro">MORE NEWS</a>
             </div>
+
         </section>
 
-        <a src="" class="boton-primario-negro">MORE NEWS</a>
-        </section>
 
 
+        <section id="section-testimonials">
 
-        <section id="">
-            <h2 class="font1875 texto-blanco">TESTIMONIALS</h2>
+            <h2 class="font1875">TESTIMONIALS</h2>
 
             <section id="each-testimony">
-                <section>
-                    <img src=""> <!--comillas-->
-                    <p class="p-gris-075">I visited Annual Designers Conference last year and I loved all the
-                        speakers who participated
-                        in
-                        it.
-                        I’ve got a lot of exclusive and really useful information, which is based on practice! And
-                        yes -
-                        it works!</p>
+                <article>
 
-                    <h6>Adam Smith</h6>
-                    <p>New York, NY</p>
+                    <div class="quote-container">
+                        <iconify-icon icon="ooui:quotes-ltr" style="color: #f75506;" width="30"
+                            height="30"></iconify-icon>
+                        <p class="p-gris-0875">I visited Annual Designers Conference last year and I loved all the
+                            speakers who participated
+                            in it. I’ve got a lot of exclusive and really useful information, which is based on
+                            practice! And yes - it works!</p>
+                    </div>
 
-                    <img src="https://livedemo00.template-help.com/wt_prod-25861/images/team-small-2-78x78.png">
-                </section>
+                    <div class="author-info">
+                        <img src="https://livedemo00.template-help.com/wt_prod-25861/images/team-small-2-78x78.png"
+                            class="author-img" alt="Author 1">
 
-                <section>
-                    <img src=""> <!--comillas-->
-                    <p class="p-gris-075">I am a regular visitor of your conferences and events. I adore your
-                        lecturers as they always
-                        give
-                        the right and effective information.
-                        I have tried many advices they gave and I see they work! Thank you for your attitude!</p>
+                        <div class="author-details">
+                            <h6>Adam Smith</h6>
+                            <p class="font-075" style="color: #f75506;">New York, NY</p>
+                        </div>
+                    </div>
 
-                    <h6>Edward Johnson</h6>
-                    <p>Los Angeles, CA</p>
+                </article>
 
-                    <img src="https://livedemo00.template-help.com/wt_prod-25861/images/team-small-1-78x78.png">
-                </section>
+                <article>
 
+                    <div class="quote-container">
+                        <iconify-icon icon="ooui:quotes-ltr" style="color: #f75506;" width="30"
+                            height="30"></iconify-icon>
+                        <p class="p-gris-0875">I am a regular visitor of your conferences and events. I adore your
+                            lecturers as they always
+                            give the right and effective information. I have tried many advices they gave and I see they
+                            work! Thank you for your attitude!</p>
+                    </div>
 
-                <section>
-                    <img src=""> <!--comillas-->
-                    <p class="p-gris-075">I listened to Women’s Rights Lecture and I was shocked how much
-                        information we don’t know or
-                        do
-                        not want to know!
-                        Thanks to your speakers I managed to resolve my problems at work and now I live happily!</p>
+                    <div class="author-info">
+                        <img src="https://livedemo00.template-help.com/wt_prod-25861/images/team-small-1-78x78.png"
+                            class="author-img" alt="Author 2">
 
-                    <h6>Eva Jackson</h6>
-                    <p>Seattle, WA</p>
+                        <div class="author-details">
+                            <h6>Edward Johnson</h6>
+                            <p class="font-075" style="color: #f75506;">Los Angeles, CA</p>
+                        </div>
+                    </div>
 
-                    <img src="https://livedemo00.template-help.com/wt_prod-25861/images/team-small-3-78x78.png">
-                </section>
+                </article>
 
-                <section id="logos">
-                    <a><img src="https://livedemo00.template-help.com/wt_prod-25861/images/brand-1-197x159.png"></a>
-                    <a><img src="https://livedemo00.template-help.com/wt_prod-25861/images/brand-2-197x159.png"></a>
-                    <a><img src="https://livedemo00.template-help.com/wt_prod-25861/images/brand-3-192x168.png"></a>
-                    <a><img src="https://livedemo00.template-help.com/wt_prod-25861/images/brand-4-192x168.png"></a>
-                    <a><img src="https://livedemo00.template-help.com/wt_prod-25861/images/brand-5-191x168.png"></a>
-                </section>
+                <article>
+
+                    <div class="quote-container">
+                        <iconify-icon icon="ooui:quotes-ltr" style="color: #f75506;" width="30"
+                            height="30"></iconify-icon>
+                        <p class="p-gris-0875">I listened to Women’s Rights Lecture and I was shocked how much
+                            information we don’t know or
+                            do not want to know! Thanks to your speakers I managed to resolve my problems at work and
+                            now I live happily!</p>
+                    </div>
+
+                    <div class="author-info">
+                        <img src="https://livedemo00.template-help.com/wt_prod-25861/images/team-small-3-78x78.png"
+                            class="author-img" alt="Author 3">
+
+                        <div class="author-details">
+                            <h6>Eva Jackson</h6>
+                            <p class="font-075" style="color: #f75506;">Seattle, WA</p>
+                        </div>
+                    </div>
+
+                </article>
 
             </section>
 
         </section>
+
 
         <section id="contact-us">
             <h2 class="font1875">CONTACT US</h2>
