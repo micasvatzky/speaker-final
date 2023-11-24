@@ -734,13 +734,22 @@ footer section {
     margin-bottom: 30px;
 }
 
-#iconos-power{
+#iconos-power {
     display: flex;
     flex-direction: column;
     width: 10%;
-    justify-content: space-between;
-    color: #79787f;
 }
+
+#iconos-power a {
+    color: #79787f;
+    transition: background-color 0.3s ease;
+    text-decoration: none; /* Para quitar el subrayado del enlace */
+}
+
+#iconos-power a:hover {
+    color: #f75506;
+}
+
 
 #iconos-fecha{
     display: flex;
@@ -764,7 +773,6 @@ footer section {
 
 #fecha:hover  {
     background-color: #f75506;
-
 }
 
 #fecha:hover h3, #fecha:hover p{
@@ -1115,6 +1123,15 @@ footer section {
     margin-top: 2em;
     font-weight: 600;
 }
+
+.james-peters{
+    color:#79787f;
+}
+
+.speaker-nombre:hover, .james-peters:hover{
+    color:#f75506;
+    cursor: pointer;
+  }
 
 .speaker-icono{
     display: flex;
