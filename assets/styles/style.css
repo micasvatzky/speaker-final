@@ -186,6 +186,11 @@ body {
     color: #79787f;
 }
 
+.p-gris-070 {
+    font-size: 0.70em;
+    color: #79787f;
+}
+
 .p-footer {
     margin-top: 10px;
 }
@@ -1002,4 +1007,29 @@ footer section {
 
 #each-speaker{
     display: flex;
+    width:70%;
+}
+
+#each-speaker article{
+    width: 24%;
+    margin: 0 1em;
+}
+
+.speaker-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1em;
+    border: 1px solid #efefef; ;
+}
+
+.speaker-texto p{
+    margin-bottom: 1em;
+}
+
+.speaker-nombre{
+    margin-top: 2em;
+    font-weight: 600;
 }
