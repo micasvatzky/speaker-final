@@ -371,10 +371,7 @@ nav li {
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+
 }
 
 .breadcrumb {
@@ -401,10 +398,12 @@ nav li {
 }
 
 #title h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
     font-size: 3.75em;
     color: #ffffff;
     font-weight: 600;
-    width: 100%;
     text-align: center;
 
 }
@@ -1230,3 +1229,40 @@ footer section {
     width: 20%;
     text-align: center;
 }
+
+
+
+#grid-blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 3em;
+  }
+  
+  #grilla-blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    width: 65%;
+    margin: 0 auto;
+    padding: 2em;
+  }
+
+  #grilla-blog div{
+    margin: 1em 0;
+  }
+  
+  .august{
+    font-weight: 600;
+  }
+
+  #grilla-blog h6{
+    font-weight: 600;
+    font-size: 0.9em;
+    margin: 0.5em 0;
+  }
+
+  #grilla-blog h6:hover{
+    color:#f75506;
+    cursor: pointer;
+  }
