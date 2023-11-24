@@ -696,7 +696,7 @@ footer section {
     background-color: #efefef;
 }
 
-.lista-single{
+.lista-single, .lista-blog_post, .lista-footer{
     display: flex;
     flex-direction: column; 
     align-items: left;
@@ -837,6 +837,10 @@ footer section {
 
 .button:hover {
     background-color: #000;
+}
+
+.shadow:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 
