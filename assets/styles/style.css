@@ -124,6 +124,9 @@ body {
     font-size: 0.813em;
 }
 
+a:hover{
+    cursor: pointer;
+}
 
 .boton-primario-negro:hover {
     color: #ffffff;
@@ -566,6 +569,7 @@ footer section {
     justify-content: center;
     align-items: center;
     margin: 0.5em;
+    cursor: default;
 } 
 
 #div-numeros div p{
@@ -1001,7 +1005,8 @@ footer section {
 #speakers{
     display: flex;
     flex-direction: column;
-    margin: 1em;
+    margin: 3em 0;
+    padding-bottom: 1em;
     align-items: center;
 }
 
@@ -1021,8 +1026,8 @@ footer section {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-top: 1em;
-    border: 1px solid #efefef; ;
+    padding: 1em 0;
+    border: 1px solid #efefef; 
 }
 
 .speaker-texto p{
@@ -1032,4 +1037,39 @@ footer section {
 .speaker-nombre{
     margin-top: 2em;
     font-weight: 600;
+}
+
+.speaker-icono{
+    display: flex;
+    color: #79787f;
+}
+
+.speaker-icono a{
+    width: 10%;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+#gallery{
+    background-color: #121212;
+    padding-top: 5em;
+}
+
+
+#galeria-titulo, #news-titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+#galeria-titulo p, #news-titulo p{
+    margin: 1em 0 3em;
+}
+
+#galeria-gap{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
 }
