@@ -152,8 +152,8 @@ a:hover{
 }
 
 .font1875 {
-    font-size: 1.875em;
-    font-weight: bolder;
+    font-size: 2.5em;
+    font-weight: 700;
     text-transform: uppercase;
 }
 
@@ -177,6 +177,11 @@ a:hover{
 .font-09 {
     font-size: 0.9em;
     font-weight: 500;
+}
+
+.font-1 {
+    font-size: 1em;
+    font-weight: 700;
 }
 
 .p-gris-0875 {
@@ -368,7 +373,7 @@ nav li {
 }
 
 #title {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
     height: 100%;
 
@@ -381,6 +386,7 @@ nav li {
 
 .breadcrumb li {
     margin: 0 7px;
+    font-size: 16px;
     /* Espaciado entre elementos en las migas de pan */
 }
 
@@ -401,7 +407,7 @@ nav li {
     display: flex;
     justify-content: center;
     padding-top: 1em;
-    font-size: 3.75em;
+    font-size: 2.5em;
     color: #ffffff;
     font-weight: 600;
     text-align: center;
