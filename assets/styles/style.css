@@ -1058,17 +1058,15 @@ footer section {
     margin: 0 1em;
 }
 
-.speaker-texto{
+.speaker-texto, .news-article{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     text-align: center;
-    padding: 1em 0;
     border: 1px solid #efefef; 
 }
 
-.speaker-texto p{
+.speaker-texto p, #each-new article p{
     margin-bottom: 1em;
 }
 
@@ -1116,18 +1114,29 @@ footer section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 3em;
+    padding: 3em;
 }
 
 #each-new{
     display: flex;
     width: 70%;
     justify-content: center;
+    padding-bottom: 2em;
+    
 }
 
 #each-new article{
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 28%;
     margin: 1em;
+    text-align: left;
+}
+
+.news-article{
+    text-align: left;
+}
+
+.news-article div{
+    padding-bottom: 1em;
 }
